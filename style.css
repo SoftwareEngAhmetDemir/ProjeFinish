@@ -1,0 +1,2775 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    /* box-sizing: border-box; */
+}
+.inp{
+    height: 50px;
+}
+
+img{
+    object-fit: contain;
+}
+.grid-container {
+   
+    display: grid;
+    grid-template-columns: auto auto;
+    /* grid-gap: 10px; */
+    background-color: #2196F3;
+    /* padding: 10px; */
+    /* height: 2000px; */
+    grid-template-rows: 500px 500px 500px 500px;
+    grid-template-columns: 80% 20%;
+  }
+  .grid-container .sol {
+    
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    text-align: center;
+    /* padding: 20px 0; */
+    font-size: 30px;
+  }
+
+  .grid-container .sag{
+      background-color: white;
+  }
+/* ///////////////// */
+  .grid-container .sol:nth-child(1)
+  {
+      background-color: rgb(6, 44, 44);
+  }
+
+.firstSection_Icerik{
+    /* background-color: blue; */
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    align-items: flex-start;
+    
+    
+}
+.divimg{
+   
+    height: 500px;
+    width: 500px;
+}
+/* ////////////////////// */
+  .grid-container .sol:nth-child(3)
+  {
+      background-color: rgb(217, 228, 228);
+  }
+
+  .grid-container .sol:nth-child(5)
+  {
+      background-color: rgb(250, 247, 244);
+  }
+  .grid-container .sol:nth-child(7)
+  {
+      background-color: rgb(6, 44, 44);
+  }
+
+
+
+  .PROJEKSPERT {
+  font-size: 25px;
+  font-family: "Perpetua Titling MT";
+  color: rgb(0, 0, 0);
+  line-height: 0.5;
+ 
+  position: absolute;
+  top: 130px;
+  height: 20px;
+  color: rgb(221, 223, 230);
+}
+
+.bizden {
+    font-size: 35px;
+    
+    color: rgb(0, 0, 0);
+    line-height: 1.0;
+ 
+    position: absolute;
+   font-family: 'Rage';
+    top: 170px;
+   width: 80%;
+    height: 36px;
+    color: rgb(221, 223, 230);
+
+  }
+.tur{
+    position: absolute;
+    top: 270px;
+    color: rgb(221, 223, 230);
+   
+   
+}
+.berforePrice{
+    position: absolute;
+    top: 320px;
+    color: rgb(221, 223, 230);
+}
+
+.indirim{
+    position: absolute;
+    top: 370px;
+    font-size: 50px;
+    color: rgb(197, 197, 88);
+}
+.indirim_cekti{
+    position: absolute;
+    top: 425px;
+    color: rgb(197, 197, 88);
+}
+/* ////////////////////////Second */
+.SecondSection{
+    display: flex;
+    word-wrap: none;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.SecondSectioTitleBakcground{
+    background-color: rgb(184, 184, 42);
+    display: flex;
+    justify-content: center;
+    top: 510px;
+    height: 50px;
+    position: absolute;
+    width: 75%;
+    align-items: center;
+}
+.SecondSectionTitle{
+  
+    font-size: 15px;
+    
+    
+  
+}
+/* ////////// */
+.SecondSectionCards{
+   
+    display: flex;
+    width: 100%;
+    /* background-color:yellow; */
+  justify-content: space-around;
+  position: relative;
+  top: 40px;
+  align-items: center;
+  height: 500px;
+}
+/* ////////// */
+.SecondSectionCards>div{
+   
+ top: 220px;
+    width: 280px;
+    height: 80%;
+    background-color: rgb(6, 44, 44);
+    border-radius: 10px;
+}
+.card_upper_Parent{
+    height: 45px;
+}
+.card_upper{
+    /* height: 45px; */
+    width: 100%;
+    font-size: 15px;
+    background-color: rgb(6, 44, 44);
+    color: white;
+    border-radius: 10px;
+    top: 3px;
+}
+.card_upper_second{
+    /* height: 45px; */
+    width: 100%;
+    font-size: 15px;
+    
+    color: white;
+}
+.Card_Body{
+position: relative;
+/* top: 5px; */
+/* background-color: yellow; */
+height: 55%;
+}
+
+.Card_Body img{
+    height: 220px;
+}
+
+.card_list{
+    padding-left: -10px;
+    word-wrap: break-word;
+   list-style-type: circle;
+   font-size: 13px;
+   line-height: 1.4;
+   text-align:left;
+   position: relative;
+ 
+ top: 5px;
+ color: white;
+ /* background-color: rgb(6, 44, 44); */
+}
+/* //////////////// */
+.after-title-settings{
+  height: 20px;
+}
+.parent-grid{
+ 
+    display: grid;
+    grid-template-columns: 350px 2px 350px;
+    grid-template-rows: 400px;
+    justify-content: center;
+   
+}
+
+.grid-item {
+height: 70%;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    
+    font-size: 10px;
+    text-align: center;
+    margin-left: 10px;
+    /* height: 50px; */
+  }
+  .bar{
+    height: 70%;
+    
+      border: 1px solid rgba(0, 0, 0, 0.8);
+  }
+
+  .child_grid_first{
+      display: grid;
+      grid-template-columns: 20% 70%;
+      height: 50%;
+      width: 100%;
+      align-content: center;
+  }
+  .child_grid_first-firstchild{
+      background-image: url('computer.png');
+      /* background-color: yellow; */
+      font-size: 15px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 50px;
+  }
+
+  .child_grid_first-secondchild{ 
+    text-align: left;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+
+  .child_grid_first-secondfchild{
+    background-image: url('note.png');
+    /* background-color: yellow; */
+   
+  grid-column-start: 1;
+  grid-column-end: 1;
+  height: 50px;
+  position: relative;
+  
+}
+.child_grid_first-secondschild{
+  
+ 
+  text-align: left;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.child_grid_second-firstchild{
+    background-image: url('3defter.png');
+    /* background-color: yellow; */
+   
+  grid-column-start: 1;
+  grid-column-end: 1;
+  height: 50px;
+} 
+
+.child_grid_second-secondfchild{
+    background-image: url('randevu.png');
+    /* background-color: yellow; */
+   
+  grid-column-start: 1;
+  grid-column-end: 1;
+  height: 50px;
+  position: relative;
+  
+}
+
+/* ///////// */
+/* ////////////////// */
+@media screen and (max-width: 374px) and (min-width: 360px) {
+    .afterthree{
+        position: relative;
+        top: -20%;
+        font-size: 10px;
+              }
+    .afterthree{
+        position: relative;
+        top: -20%;
+        font-size: 10px;
+              }
+.grid-container{
+    grid-template-rows: 400px 400px 400px 400px 400px;
+}
+   .PROJEKSPERT{
+       font-size: 20px;
+       top: 100px;
+   }
+    .symbole
+    {
+        width: 200px;
+    }
+    .tur{
+     width: 270px;
+     top: 180px;
+    }
+    .bizden {
+        font-size: 23px;
+        top: 130px;
+    
+      }
+      .berforePrice{
+          font-size: 10px;
+          top: 230px;
+          line-height: 1.4;
+      }
+
+
+      .indirim{
+        position: absolute;
+        top: 270px;
+        font-size: 50px;
+        color: rgb(197, 197, 88);
+    }
+    .indirim_cekti{
+        position: absolute;
+        top: 320px;
+        color: rgb(197, 197, 88);
+    }
+
+    /* /////////Second */
+
+/* ////////////////////////Second */
+.SecondSection{
+    /* display: flex; */
+    word-wrap: none;
+    flex-wrap: nowrap;
+    /* justify-content: center; */
+}
+.SecondSectioTitleBakcground{
+    background-color: rgb(184, 184, 42);
+    display: flex;
+    justify-content: center;
+    top: 405px;
+    height: 25px;
+    position: absolute;
+    width: 80%;
+    align-items: center;
+}
+.SecondSectionTitle{
+  
+    font-size: 6px;
+    
+    
+  
+}
+/* ////////// */
+.SecondSectionCards{
+   
+    display: flex;
+    width: 80%;
+    height: 350px;
+    /* background-color:yellow; */
+  justify-content: space-around;
+  position: absolute;
+  align-items: center;
+  top: 440px;
+}
+/* ////////// */
+.SecondSectionCards>div{
+   
+ top: 230px;
+    width: 90px;
+    height: 70%;
+    /* background-color: blue; */
+
+}
+/* ///////// */
+.card_upper_Parent{
+    height: 30px;
+}
+.card_upper{
+    /* height: 45px; */
+    width: 100%;
+    font-size: 12px;
+    background-color: rgb(6, 44, 44);
+    color: white;
+    border-radius: 10px;
+    /* top: 3px; */
+}
+.card_upper_second{
+    /* height: 45px; */
+    width: 100%;
+    font-size: 10px;
+    
+    color: white;
+}
+.Card_Body{
+position: relative;
+top: 0px;
+/* background-color: yellow; */
+height: 100px;
+
+}
+.Card_Body img{
+    height: 100px;
+}
+.card_list{
+    padding: 0;
+    margin-left: 0px;
+  padding: 100px;
+  word-wrap: none;
+    width: 100%;
+    line-height: 1.2;
+   list-style-type: circle;
+   font-size: 7px;
+  
+   text-align:left;
+  padding: 12px;
+ /* top: -100px; */
+ color: white;
+ /* background-color: rgb(6, 44, 44); */
+}
+/* //////////////////////////third */
+
+.after-title-settings{
+    height: 15px;
+  }
+  .title-third{
+      position: relative;
+      top: 5px;
+      font-size: 15px;
+  }
+  .parent-grid{
+   
+      display: grid;
+      grid-template-columns: 160px 2px 160px;
+      grid-template-rows: 400px;
+      justify-content: center;
+     
+  }
+  
+  .grid-item {
+  height: 70%;
+      background-color: rgba(255, 255, 255, 0.8);
+      
+      
+      font-size: 5px;
+      text-align: center;
+      margin-left: 5px;
+      /* height: 50px; */
+    }
+    .bar{
+      height: 70%;
+      
+        border: 1px solid rgba(0, 0, 0, 0.8);
+    }
+  
+    .child_grid_first{
+        display: grid;
+        grid-template-columns: 20% 70%;
+        height: 50%;
+        width: 100%;
+        align-content: center;
+    }
+    .child_grid_first-firstchild{
+        background-image: url('computer.png');
+        /* background-color: yellow; */
+       
+      grid-column-start: 1;
+      grid-column-end: 1;
+      height: 50px;
+    }
+  
+    .child_grid_first-secondchild{
+      
+     
+      text-align: left;
+      font-size: 10px;
+      display: flex;
+      align-items: center;
+    }
+  
+  
+    .child_grid_first-secondfchild{
+      background-image: url('note.png');
+      /* background-color: yellow; */
+     
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 20px;
+    position: relative;
+    
+  }
+  .child_grid_first-secondschild{
+    
+   
+    text-align: left;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .child_grid_second-firstchild{
+      background-image: url('3defter.png');
+      /* background-color: yellow; */
+     
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 50px;
+  } 
+  
+  .child_grid_second-secondfchild{
+      background-image: url('randevu.png');
+      /* background-color: yellow; */
+     
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 50px;
+    position: relative;
+    
+  }
+
+
+
+/* ///////////// */
+  }
+/* /////////// */
+
+.seventh_first{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto 40%;
+width: 100%;
+height: 100%;
+}
+.item1 {
+    /* background-color: black; */
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row: 1;
+  }
+
+ .item1 .item11{
+overflow-y:auto;
+height: 400px;
+width: 100%;
+text-align: left;
+transform: scaleX(-1);
+  }
+  .item111{
+      font-size: 20px;
+      color: white;
+      transform: scaleX(-1);
+  }
+  .item2 {
+      /* background-color: red; */
+    grid-column-start: 10;
+    grid-column-end: 10;
+
+    grid-row: 1;
+   
+   
+   justify-content: center;
+    
+  }
+  .item2 .item22{
+
+    display: grid;
+    grid-template-columns:auto;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+.item222{
+     /* background-image: url('fourth.png');
+    background-size: cover;
+   
+    width: 400px;
+height: 300px;  */
+
+
+  }
+
+
+  /* /////////////////// */
+  .afterthree{
+    position: relative;
+    top: -10%;
+    font-size: 24px;
+          }
+  @media screen and (max-width: 450px) and (min-width: 400px) {
+
+    .item222{
+        /* background-image: url('fourth.png');
+        background-size: cover;
+       
+        width: 120px;
+    height: 300px; */
+    
+      }
+
+
+
+    .grid-container{
+        grid-template-rows: 400px 400px 400px 400px 400px;
+    }
+      .indirim{
+            position: absolute;
+            top: 270px;
+            font-size: 50px;
+            color: rgb(197, 197, 88);
+        }
+        .indirim_cekti{
+            position: absolute;
+            top: 320px;
+            color: rgb(197, 197, 88);
+        }
+.PROJEKSPERT{
+    font-size: 18px;
+}
+    .tur{
+     width: 300px;
+   top: 220px;
+     
+    }
+    .bizden {
+        font-size: 24px;
+    
+      }
+      .berforePrice{
+          font-size: 11px;
+          top: 260px;
+          
+      }
+
+
+      /* ///////////////////////////Second */
+  /* /////////Second */
+
+/* ////////////////////////Second */
+.SecondSection{
+    display: flex;
+    word-wrap: none;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.SecondSectioTitleBakcground{
+    background-color: rgb(184, 184, 42);
+    display: flex;
+    justify-content: center;
+    top: 405px;
+    height: 30px;
+    position: absolute;
+    width: 80%;
+    align-items: center;
+}
+.SecondSectionTitle{
+  
+    font-size: 6px;
+    
+    
+  
+}
+/* ////////// */
+.SecondSectionCards{
+   
+    display: flex;
+    width: 80%;
+    height: 350px;
+    /* background-color:yellow; */
+  justify-content: space-around;
+  position: absolute;
+  align-items: center;
+  top: 440px;
+}
+/* ////////// */
+.SecondSectionCards>div{
+   
+ top: 230px;
+    width: 90px;
+    height: 70%;
+    /* background-color: blue; */
+
+}
+/* ///////// */
+.card_upper_Parent{
+    height: 30px;
+}
+.card_upper{
+    /* height: 45px; */
+    width: 100%;
+    font-size: 10px;
+    background-color: rgb(6, 44, 44);
+    color: white;
+    border-radius: 10px;
+    top: 3px;
+}
+.card_upper_second{
+    /* height: 45px; */
+    width: 100%;
+    font-size: 10px;
+    
+    color: white;
+}
+.Card_Body{
+position: relative;
+top: 5px;
+/* background-color: yellow; */
+height: 100px;
+
+}
+.Card_Body img{
+    height: 100px;
+}
+.card_list{
+    padding: 15%; 
+  word-wrap: none;
+    width: 100%;
+   list-style-type: circle;
+   font-size: 6px;
+  
+   text-align:left;
+ 
+ /* top: -100px; */
+ color: white;
+ /* background-color: rgb(6, 44, 44); */
+}
+/* ///////////////// */
+.after-title-settings{
+    height: 20px;
+  }
+  .parent-grid{
+   
+      display: grid;
+      grid-template-columns: 190px 2px 190px;
+      grid-template-rows: 400px;
+      justify-content: center;
+     
+  }
+  
+  .grid-item {
+  height: 70%;
+      background-color: rgba(255, 255, 255, 0.8);
+      
+      
+      font-size: 7px;
+      text-align: center;
+      margin-left: 10px;
+      /* height: 50px; */
+    }
+    .bar{
+      height: 70%;
+      
+        border: 1px solid rgba(0, 0, 0, 0.8);
+    }
+  
+    .child_grid_first{
+        display: grid;
+        grid-template-columns: 20% 70%;
+        height: 50%;
+        width: 100%;
+        align-content: center;
+    }
+    .child_grid_first-firstchild{
+        background-image: url('computer.png');
+        /* background-color: yellow; */
+       
+      grid-column-start: 1;
+      grid-column-end: 1;
+      height: 50px;
+      object-fit: contain;
+    }
+  
+    .child_grid_first-secondchild{
+      
+     
+      text-align: left;
+      font-size: 10px;
+      display: flex;
+      align-items: center;
+    }
+  
+  
+    .child_grid_first-secondfchild{
+      background-image: url('note.png');
+      /* background-color: yellow; */
+     
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 50px;
+    position: relative;
+    
+  }
+  .child_grid_first-secondschild{
+    
+   
+    text-align: left;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .child_grid_second-firstchild{
+      background-image: url('3defter.png');
+      /* background-color: yellow; */
+     
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 50px;
+  } 
+  
+  .child_grid_second-secondfchild{
+      background-image: url('randevu.png');
+      /* background-color: yellow; */
+     
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 50px;
+    position: relative;
+    
+  }
+      /* //////////////// */
+  }
+
+
+  @media screen and (max-width: 359x) and (min-width: 300px) {
+    .afterthree{
+        position: relative;
+        top: -20%;
+        font-size: 10px;
+              }
+    .grid-container{
+        grid-template-rows: 400px 400px 400px 400px 400px;
+    }
+      .indirim{
+            position: absolute;
+            top: 270px;
+            font-size: 50px;
+            color: rgb(197, 197, 88);
+        }
+        .indirim_cekti{
+            position: absolute;
+            top: 320px;
+            color: rgb(197, 197, 88);
+        }
+.PROJEKSPERT{
+    font-size: 18px;
+}
+    .tur{
+     width: 250px;
+   top: 220px;
+     
+    }
+    .bizden {
+        font-size: 20px;
+    
+      }
+      .berforePrice{
+          font-size: 9px;
+          top: 260px;
+         
+      }
+      /* //////////////////////Second */
+  /* /////////Second */
+
+/* ////////////////////////Second */
+.SecondSection{
+    display: flex;
+    word-wrap: none;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.SecondSectioTitleBakcground{
+    background-color: rgb(184, 184, 42);
+    display: flex;
+    justify-content: center;
+    top: 405px;
+    height: 25px;
+    position: absolute;
+    width: 80%;
+    align-items: center;
+}
+.SecondSectionTitle{
+  
+    font-size: 6px;
+    
+    
+  
+}
+/* ////////// */
+.SecondSectionCards{
+   
+    display: flex;
+    width: 80%;
+    height: 350px;
+    /* background-color:yellow; */
+  justify-content: space-around;
+  position: absolute;
+  align-items: center;
+  top: 440px;
+}
+/* ////////// */
+.SecondSectionCards>div{
+   
+ top: 230px;
+    width: 70px;
+    height: 70%;
+    /* background-color: blue; */
+
+}
+/* ///////// */
+.card_upper_Parent{
+    height: 30px;
+}
+.card_upper{
+    /* height: 45px; */
+    width: 100%;
+    font-size: 10px;
+    background-color: rgb(6, 44, 44);
+    color: white;
+    border-radius: 10px;
+    top: 3px;
+}
+.card_upper_second{
+    /* height: 45px; */
+    width: 100%;
+    font-size: 10px;
+    
+    color: white;
+}
+.Card_Body{
+
+/* background-color: yellow; */
+height: 100px;
+
+}
+.Card_Body img{
+    height: 100px;
+}
+.card_list{
+   
+ width: 100px;
+  word-wrap: none;
+   list-style-type: circle;
+   font-size: 5px;
+ position: relative;
+
+ 
+ /* top: -100px; */
+ color: white;
+ 
+}
+
+      /* //////////////////////////// */
+  }
+
+/* ////////////////////////////////////// */
+
+
+
+/* /////////////////////////// */
+  @media screen and (max-width: 400px) and (min-width: 375px) {
+    .grid-container{
+        grid-template-rows: 400px 400px 400px 400px 400px;
+    }
+      .indirim{
+            position: absolute;
+            top: 270px;
+            font-size: 50px;
+            color: rgb(197, 197, 88);
+        }
+        .indirim_cekti{
+            position: absolute;
+            top: 320px;
+            color: rgb(197, 197, 88);
+        }
+.PROJEKSPERT{
+    font-size: 18px;
+}
+    .tur{
+     width: 270px;
+   top: 220px;
+     
+    }
+    .bizden {
+        font-size: 22px;
+    
+      }
+      .berforePrice{
+          font-size: 10px;
+          top: 260px;
+         
+      }
+
+
+
+/* /////////
+ /*second */
+    /* ///////////////////////////Second */
+  /* /////////Second */
+
+/* ////////////////////////Second */
+.SecondSection{
+    display: flex;
+    word-wrap: none;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.SecondSectioTitleBakcground{
+    background-color: rgb(184, 184, 42);
+    display: flex;
+    justify-content: center;
+    top: 405px;
+    height: 30px;
+    position: absolute;
+    width: 80%;
+    align-items: center;
+}
+.SecondSectionTitle{
+  
+    font-size: 6px;
+    
+    
+  
+}
+/* ////////// */
+.SecondSectionCards{
+   
+    display: flex;
+    width: 80%;
+    height: 350px;
+    /* background-color:yellow; */
+  justify-content: space-around;
+  position: absolute;
+  align-items: center;
+  top: 440px;
+}
+/* ////////// */
+.SecondSectionCards>div{
+   
+ top: 230px;
+    width: 90px;
+    height: 70%;
+    /* background-color: blue; */
+
+}
+.card_upper_Parent{
+    height: 30px;
+}
+.card_upper{
+    /* height: 45px; */
+    width: 100%;
+    font-size: 10px;
+    background-color: rgb(6, 44, 44);
+    color: white;
+    border-radius: 10px;
+    top: 3px;
+}
+.card_upper_second{
+    /* height: 45px; */
+    width: 100%;
+    font-size: 10px;
+    
+    color: white;
+}
+/* ///////// */
+
+.Card_Body{
+position: relative;
+top: 0px;
+/* background-color: yellow; */
+height: 100px;
+
+}
+.Card_Body img{
+    height: 100px;
+}
+.card_list{
+    padding: 16%;
+  word-wrap: none;
+    width: 100%;
+   list-style-type: circle;
+   font-size: 6px;
+  
+   text-align:left;
+ 
+ /* top: -100px; */
+ color: white;
+ /* background-color: rgb(6, 44, 44); */
+}
+
+      /* //////////////// */
+      .after-title-settings{
+        height: 20px;
+      }
+      .title-third{
+          font-size: 13px;
+          position: relative;
+          top: 10px;
+      }
+      .parent-grid{
+       
+          display: grid;
+          grid-template-columns: 150px 2px 150px;
+          grid-template-rows: 200px;
+          justify-content: center;
+         align-items: center;
+      }
+      
+      .grid-item {
+      height: 70%;
+          background-color: rgba(255, 255, 255, 0.8);
+          
+          
+          font-size: 7px;
+          text-align: center;
+          margin-left: 10px;
+          /* height: 50px; */
+        }
+        .bar{
+          height: 70%;
+          
+            border: 1px solid rgba(0, 0, 0, 0.8);
+        }
+      
+        .child_grid_first{
+            display: grid;
+            grid-template-columns: 20% 70%;
+            height: 50%;
+            width: 100%;
+            align-content: center;
+        }
+        .child_grid_first-firstchild{
+            background-image: url('320computer.png');
+            /* background-color: yellow; */
+           
+          grid-column-start: 1;
+          grid-column-end: 1;
+          height: 50px;
+        }
+      
+        .child_grid_first-secondchild{
+          
+         
+          text-align: left;
+          font-size: 7px;
+          display: flex;
+          align-items: center;
+        }
+      
+      
+        .child_grid_first-secondfchild{
+          background-image: url('320defter.png');
+          /* background-color: yellow; */
+         
+        grid-column-start: 1;
+        grid-column-end: 1;
+        height: 50px;
+        position: relative;
+        top: 10px;
+        
+      }
+      .child_grid_first-secondschild{
+        
+       
+        text-align: left;
+        font-size: 7px;
+        display: flex;
+        align-items: center;
+      }
+      
+      .child_grid_second-firstchild{
+          background-image: url('3203defter.png');
+          /* background-color: yellow; */
+         
+        grid-column-start: 1;
+        grid-column-end: 1;
+        height: 50px;
+        position: relative;
+        top: 10px;
+      } 
+      
+      .child_grid_second-secondfchild{
+          background-image: url('320randevu.png');
+          /* background-color: yellow; */
+         
+        grid-column-start: 1;
+        grid-column-end: 1;
+        height: 50px;
+        position: relative;
+        
+      }
+      .bar{
+          height: 140px;
+      }
+/* /////////// */
+
+  }
+
+
+  @media screen and (max-width: 800px) and (min-width: 700px){
+
+
+    .tur{
+     width: 470px;
+   top: 240px;
+     
+    }
+    .bizden {
+        font-size: 40px;
+    
+      }
+      .berforePrice{
+          font-size: 20px;
+          top: 300px;
+         
+      }
+      .indirim{
+     
+        top: 350px;
+      
+    }
+    .indirim_cekti{
+      
+        top: 400px;
+        
+    }
+    /* ////////////Second */
+
+    /* ///////////////////////////Second */
+  /* /////////Second */
+
+/* ////////////////////////Second */
+.SecondSection{
+    display: flex;
+    word-wrap: none;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.SecondSectioTitleBakcground{
+    background-color: rgb(184, 184, 42);
+    display: flex;
+    justify-content: center;
+    top: 5px;
+    height: 30px;
+    position: relative;
+    width: 80%;
+    align-items: center;
+}
+.SecondSectionTitle{
+  
+    font-size: 6px;
+    
+    
+  
+}
+/* ////////// */
+.SecondSectionCards{
+   
+    display: flex;
+    width: 80%;
+    height: 350px;
+    /* background-color:yellow; */
+  justify-content: space-around;
+  position: absolute;
+  align-items: center;
+  top: 490px;
+}
+/* ////////// */
+.SecondSectionCards>div{
+   position: relative;
+ top: 100px;
+    width: 150px;
+    height: 80%;
+    /* background-color: blue; */
+
+}
+/* ///////// */
+.card_upper{
+    height: 25px;
+    width: 100%;
+    font-size: 10px;
+    background-color: rgb(6, 44, 44);
+    color: white;
+    border-radius: 10px;
+}
+.Card_Body{
+position: relative;
+top: 0px;
+/* background-color: yellow; */
+height: 100px;
+
+}
+.Card_Body img{
+    height: 100px;
+}
+.card_list{
+  padding: 10%;
+  word-wrap: none;
+    width: 100%;
+   list-style-type: circle;
+   font-size: 8px;
+   /* line-height: 1.5; */
+   text-align:left;
+ 
+ /* top: -100px; */
+ color: white;
+ /* background-color: rgb(6, 44, 44); */
+}
+/* third */
+
+.after-title-settings{
+    height: 20px;
+  }
+  .parent-grid{
+   
+      display: grid;
+      grid-template-columns: 300px 2px 300px;
+      grid-template-rows: 400px;
+      justify-content: center;
+     
+  }
+  
+  .grid-item {
+  height: 70%;
+      background-color: rgba(255, 255, 255, 0.8);
+      
+      
+      font-size: 10px;
+      text-align: center;
+      margin-left: 10px;
+      /* height: 50px; */
+    }
+    .bar{
+      height: 70%;
+      
+        border: 1px solid rgba(0, 0, 0, 0.8);
+    }
+  
+    .child_grid_first{
+        display: grid;
+        grid-template-columns: 20% 70%;
+        height: 50%;
+        width: 100%;
+        align-content: center;
+    }
+    .child_grid_first-firstchild{
+        background-image: url('computer.png');
+        /* background-color: yellow; */
+       
+      grid-column-start: 1;
+      grid-column-end: 1;
+      height: 50px;
+    }
+  
+    .child_grid_first-secondchild{
+      
+     
+      text-align: left;
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+    }
+  
+  
+    .child_grid_first-secondfchild{
+      background-image: url('note.png');
+      /* background-color: yellow; */
+     
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 50px;
+    position: relative;
+    
+  }
+  .child_grid_first-secondschild{
+    
+   
+    text-align: left;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .child_grid_second-firstchild{
+      background-image: url('3defter.png');
+      /* background-color: yellow; */
+     
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 50px;
+  } 
+  
+  .child_grid_second-secondfchild{
+      background-image: url('randevu.png');
+      /* background-color: yellow; */
+     
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 50px;
+    position: relative;
+    
+  }
+      /* //////////////// */
+
+    /*  */
+  }
+
+
+  @media screen and (max-width: 1024px) and (min-width: 1024px) {
+.PROJEKSPERT{
+    font-size: 25px;
+}
+    .tur{
+     width: 700px;
+   top: 260px;
+     
+    }
+    .bizden {
+        font-size: 50px;
+    top: 180px;
+      }
+      .berforePrice{
+          font-size: 25px;
+          top: 340px;
+         
+      }
+
+
+/* Second */
+    /* ///////////////////////////Second */
+  /* /////////Second */
+
+/* ////////////////////////Second */
+.SecondSection{
+    display: flex;
+    word-wrap: none;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.SecondSectioTitleBakcground{
+    background-color: rgb(184, 184, 42);
+    display: flex;
+    justify-content: center;
+    top: 5px;
+    height: 30px;
+    position: relative;
+    width: 80%;
+    align-items: center;
+}
+.SecondSectionTitle{
+  
+    font-size: 8px;
+    
+    
+  
+}
+/* ////////// */
+.SecondSectionCards{
+   
+    display: flex;
+    width: 70%;
+    height: 350px;
+    /* background-color:yellow; */
+  justify-content: space-around;
+  position: absolute;
+  align-items: center;
+  top: 550px;
+}
+/* ////////// */
+.SecondSectionCards>div{
+   
+ top: 230px;
+    width: 200px;
+    height: 80%;
+    /* background-color: blue; */
+
+}
+/* ///////// */
+.card_upper{
+    height: 25px;
+    width: 100%;
+    font-size: 10px;
+    background-color: rgb(6, 44, 44);
+    color: white;
+    border-radius: 10px;
+}
+.Card_Body{
+position: relative;
+top: 0px;
+/* background-color: yellow; */
+height: 100px;
+
+}
+.Card_Body img{
+    height: 120px;
+}
+.card_list{
+    padding: 10%;
+  position: relative;
+  top: 20px;
+  word-wrap: none;
+    width: 100%;
+   list-style-type: circle;
+   font-size: 8px;
+  
+   text-align:left;
+ 
+ /* top: -100px; */
+ color: white;
+ /* background-color: rgb(6, 44, 44); */
+}
+
+      /* //////////////// */
+/*  */
+
+  }
+  
+
+
+  @media screen and (max-width: 650px) and (min-width: 500px) {
+    .afterthree{
+        position: relative;
+        top: -23%;
+        font-size: 10px;
+              }
+    .grid-container{
+        grid-template-rows: 400px 400px 400px 400px 400px;
+    }
+      .indirim{
+            position: absolute;
+            top: 270px;
+            font-size: 50px;
+            color: rgb(197, 197, 88);
+        }
+        .indirim_cekti{
+            position: absolute;
+            top: 320px;
+            color: rgb(197, 197, 88);
+        }
+    .PROJEKSPERT{
+        font-size: 20px;
+    }
+        .tur{
+         width: 400px;
+       top: 210px;
+         
+        }
+        .bizden {
+            font-size: 30px;
+        top: 160px;
+          }
+          .berforePrice{
+              font-size: 15px;
+              top: 250px;
+             
+          }
+
+          /* //////////////////////////Second */
+    /* ///////////////////////////Second */
+  /* /////////Second */
+
+/* ////////////////////////Second */
+.SecondSection{
+    display: flex;
+    word-wrap: none;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.SecondSectioTitleBakcground{
+    background-color: rgb(184, 184, 42);
+    display: flex;
+    justify-content: center;
+    top: 405px;
+    height: 30px;
+    position: absolute;
+    width: 80%;
+    align-items: center;
+}
+.SecondSectionTitle{
+  
+    font-size: 7px;
+    
+    
+  
+}
+/* ////////// */
+.SecondSectionCards{
+   
+    display: flex;
+    width: 80%;
+    height: 350px;
+    /* background-color:yellow; */
+  justify-content: space-around;
+  position: absolute;
+  align-items: center;
+  top: 440px;
+}
+/* ////////// */
+.SecondSectionCards>div{
+   
+ top: 230px;
+    width: 120px;
+    height: 70%;
+    /* background-color: blue; */
+
+}
+/* ///////// */
+.card_upper_Parent{
+    height: 30px;
+}
+.card_upper{
+    /* height: 45px; */
+    width: 100%;
+    font-size: 12px;
+    background-color: rgb(6, 44, 44);
+    color: white;
+    border-radius: 10px;
+    top: 3px;
+}
+.card_upper_second{
+    /* height: 45px; */
+    width: 100%;
+    font-size: 12px;
+    
+    color: white;
+}
+.Card_Body{
+position: relative;
+top: 5px;
+/* background-color: yellow; */
+height: 100px;
+
+}
+.Card_Body img{
+    height: 100px;
+}
+.card_list{
+    display: inline-block;
+  padding: 12px;
+  line-height: 1.4;
+  word-wrap: none;
+    width: 100%;
+   list-style-type: circle;
+   font-size: 8px;
+  
+   text-align:left;
+ 
+ /* top: -100px; */
+ color: white;
+ /* background-color: rgb(6, 44, 44); */
+}
+/* ///////third */
+.after-title-settings{
+    height: 20px;
+  }
+  .parent-grid{
+   
+      display: grid;
+      grid-template-columns: 220px 2px 220px;
+      grid-template-rows: 370px;
+      justify-content: center;
+     
+  }
+  
+  .grid-item {
+  height: 70%;
+      background-color: rgba(255, 255, 255, 0.8);
+      
+      
+      font-size: 10px;
+      text-align: center;
+      margin-left: 10px;
+      /* height: 50px; */
+    }
+    .bar{
+      height: 70%;
+      
+        border: 1px solid rgba(0, 0, 0, 0.8);
+    }
+  
+    .child_grid_first{
+        display: grid;
+        grid-template-columns: 20% 70%;
+        height: 50%;
+        width: 100%;
+        align-content: center;
+    }
+    .child_grid_first-firstchild{
+        background-image: url('computer.png');
+        /* background-color: yellow; */
+       
+      grid-column-start: 1;
+      grid-column-end: 1;
+      height: 50px;
+    }
+  
+    .child_grid_first-secondchild{
+      
+     
+      text-align: left;
+      font-size: 10px;
+      display: flex;
+      align-items: center;
+    }
+  
+  
+    .child_grid_first-secondfchild{
+      background-image: url('note.png');
+      /* background-color: yellow; */
+     
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 50px;
+    position: relative;
+    
+  }
+  .child_grid_first-secondschild{
+    
+   
+    text-align: left;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .child_grid_second-firstchild{
+      background-image: url('3defter.png');
+      /* background-color: yellow; */
+     
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 50px;
+  } 
+  
+  .child_grid_second-secondfchild{
+      background-image: url('randevu.png');
+      /* background-color: yellow; */
+     
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 50px;
+    position: relative;
+    
+  }
+      /* //////////////// */
+
+          /*  */
+      }
+
+
+
+      @media screen and (max-width: 350px) and (min-width: 280px) {
+        .grid-container{
+            grid-template-rows: 400px 400px 400px 400px 400px;
+        }
+          .indirim{
+                position: absolute;
+                top: 270px;
+                font-size: 50px;
+                color: rgb(197, 197, 88);
+            }
+            .indirim_cekti{
+                position: absolute;
+                top: 320px;
+                color: rgb(197, 197, 88);
+            }
+        .PROJEKSPERT{
+            font-size: 14px;
+        }
+            .tur{
+             width: 200px;
+           top: 195px;
+             
+            }
+            .bizden {
+                font-size: 18px;
+            top: 160px;
+              }
+              .berforePrice{
+                  font-size: 11px;
+                  top: 240px;
+                 
+              }
+              /* //////////////////////////////////Second */
+    /* ///////////////////////////Second */
+  /* /////////Second */
+
+/* ////////////////////////Second */
+.SecondSection{
+    display: flex;
+    word-wrap: none;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.SecondSectioTitleBakcground{
+    background-color: rgb(184, 184, 42);
+    display: flex;
+    justify-content: center;
+    top: 405px;
+    height: 30px;
+    position: absolute;
+    width: 80%;
+    align-items: center;
+}
+.SecondSectionTitle{
+  
+    font-size: 6px;
+    
+    
+  
+}
+/* ////////// */
+.SecondSectionCards{
+   
+    display: flex;
+    width: 80%;
+    height: 350px;
+    /* background-color:yellow; */
+  justify-content: space-around;
+  position: absolute;
+  align-items: center;
+  top: 440px;
+}
+/* ////////// */
+.SecondSectionCards>div{
+   
+ top: 230px;
+    width: 70px;
+    height: 70%;
+    /* background-color: blue; */
+
+}
+/* ///////// */
+.card_upper_Parent{
+    height: 30px;
+}
+.card_upper{
+    /* height: 45px; */
+    width: 100%;
+    font-size: 6px;
+    background-color: rgb(6, 44, 44);
+    color: white;
+    border-radius: 10px;
+    top: 3px;
+}
+.card_upper_second{
+    /* height: 45px; */
+    width: 100%;
+    font-size: 6px;
+    
+    color: white;
+}
+.Card_Body{
+position: relative;
+top: 5px;
+/* background-color: yellow; */
+height: 100px;
+
+}
+.Card_Body img{
+    height: 100px;
+}
+.card_list{
+  padding: 10px;
+  word-wrap: none;
+    width: 100%;
+   list-style-type: circle;
+   font-size: 5px;
+  
+   text-align:left;
+ 
+ /* top: -100px; */
+ color: white;
+ /* background-color: rgb(6, 44, 44); */
+}
+
+      /* //////////////// */
+/* third */
+.after-title-settings{
+    height: 20px;
+  }
+  .parent-grid{
+   
+      display: grid;
+      grid-template-columns: 120px 2px 120px;
+      grid-template-rows: 200px;
+      justify-content: center;
+      align-items: center;
+     
+  }
+  
+  .grid-item {
+  height: 70%;
+      background-color: rgba(255, 255, 255, 0.8);
+      
+      
+      font-size: 6px;
+      text-align: center;
+      margin-left: 10px;
+      /* height: 50px; */
+    }
+    .bar{
+      height: 50%;
+      
+        border: 1px solid rgba(0, 0, 0, 0.8);
+    }
+  
+    .child_grid_first{
+        display: grid;
+        grid-template-columns: 20% 70%;
+        height: 50%;
+        width: 100%;
+        align-content: center;
+    }
+    .child_grid_first-firstchild{
+        background-image: url('320computer.png');
+        /* background-color: yellow; */
+     
+      grid-column-start: 1;
+      grid-column-end: 1;
+      height: 30px;
+      width: 100px;
+     
+      
+    }
+  
+    .child_grid_first-secondchild{
+      
+     
+      text-align: left;
+      font-size: 6px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      left: 7px;
+    }
+  
+  
+    .child_grid_first-secondfchild{
+      background-image: url('320defter.png');
+      
+     
+    grid-column-start: 1;
+    grid-column-end: 1;
+    width: 50px;
+    height: 30px;
+  
+   
+    
+  }
+  .child_grid_first-secondschild{
+    
+   
+    text-align: left;
+    font-size: 6px;
+    display: flex;
+    align-items: center;
+  }
+  .title-third{
+      font-size: 12px;
+      position: relative;
+      top: 10px;
+  }
+  .bar{
+      height: 140px;
+      position: relative;
+     
+  }
+  
+  .child_grid_second-firstchild{
+      background-image: url('3203defter.png');
+      /* background-color: yellow; */
+      /* background-color: yellow; */
+    grid-column-start: 1;
+    grid-column-end: 1;
+    width: 50px;
+    height: 30px;
+    position: relative;
+    top: 5px;
+  } 
+  
+  .child_grid_second-secondfchild{
+      background-image: url('320randevu.png');
+      /* background-color: yellow; */
+     
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 50px;
+    position: relative;
+    
+  }
+
+
+              /*  */
+          }
+
+
+
+          @media screen and (max-width: 295px) and (min-width: 200px) {
+            .grid-container{
+                grid-template-rows: 400px 400px 400px 400px 400px;
+            }
+              .indirim{
+                    position: absolute;
+                    top: 270px;
+                    font-size: 50px;
+                    color: rgb(197, 197, 88);
+                }
+                .indirim_cekti{
+                    position: absolute;
+                    top: 320px;
+                    color: rgb(197, 197, 88);
+                }
+            .PROJEKSPERT{
+                font-size: 14px;
+            }
+                .tur{
+                 width: 200px;
+               top: 195px;
+                 
+                }
+                .bizden {
+                    font-size: 18px;
+                top: 160px;
+                  }
+                  .berforePrice{
+                      font-size: 11px;
+                      top: 240px;
+                     
+                  }
+                  
+/* ////////////////////////Second */
+.SecondSection{
+    display: flex;
+    word-wrap: none;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.SecondSectioTitleBakcground{
+    background-color: rgb(184, 184, 42);
+    display: flex;
+    justify-content: center;
+    top: 405px;
+    height: 30px;
+    position: absolute;
+    width: 80%;
+    align-items: center;
+}
+.SecondSectionTitle{
+  
+    font-size: 6px;
+    
+    
+  
+}
+/* ////////// */
+.SecondSectionCards{
+   
+    display: flex;
+    width: 80%;
+    height: 350px;
+    /* background-color:yellow; */
+  justify-content: space-around;
+  position: absolute;
+  align-items: center;
+  top: 440px;
+}
+/* ////////// */
+.SecondSectionCards>div{
+   
+ top: 230px;
+    width: 70px;
+    height: 70%;
+    /* background-color: blue; */
+
+}
+/* ///////// */
+.card_upper_Parent{
+    height: 30px;
+}
+.card_upper{
+    /* height: 45px; */
+    width: 100%;
+    font-size: 5px;
+    background-color: rgb(6, 44, 44);
+    color: white;
+    border-radius: 10px;
+    top: 3px;
+}
+.card_upper_second{
+    /* height: 45px; */
+    width: 100%;
+    font-size: 5px;
+    
+    color: white;
+}
+.Card_Body{
+position: relative;
+top: 5px;
+/* background-color: yellow; */
+height: 100px;
+
+}
+.Card_Body img{
+    height: 100px;
+}
+.card_list{
+  padding: 10px;
+  word-wrap: none;
+    width: 100%;
+   list-style-type: circle;
+   font-size: 5px;
+  
+   text-align:left;
+ 
+ /* top: -100px; */
+ color: white;
+ /* background-color: rgb(6, 44, 44); */
+}
+/* /////////third */
+.after-title-settings{
+    height: 20px;
+  }
+  .parent-grid{
+   
+      display: grid;
+      grid-template-columns: 100px 2px 100px;
+      grid-template-rows: 400px;
+      justify-content: center;
+     
+  }
+  
+  .grid-item {
+  height: 70%;
+      background-color: rgba(255, 255, 255, 0.8);
+      
+      
+      font-size: 10px;
+      text-align: center;
+      margin-left: 10px;
+      /* height: 50px; */
+    }
+    .bar{
+      height: 70%;
+      
+        border: 1px solid rgba(0, 0, 0, 0.8);
+    }
+  
+    .child_grid_first{
+        display: grid;
+        grid-template-columns: 20% 70%;
+        height: 50%;
+        width: 100%;
+        align-content: center;
+    }
+    .child_grid_first-firstchild{
+        background-image: url('320computer.png');
+        /* background-color: yellow; */
+       
+      grid-column-start: 1;
+      grid-column-end: 1;
+      height: 40px;
+    }
+  
+    .child_grid_first-secondchild{
+      
+     
+      text-align: left;
+      font-size: 5px;
+      display: flex;
+      align-items: center;
+    }
+  
+  
+    .child_grid_first-secondfchild{
+      background-image: url('320defter.png');
+      /* background-color: yellow; */
+     
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 50px;
+    position: relative;
+    
+  }
+  .child_grid_first-secondschild{
+    
+   
+    text-align: left;
+    font-size: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .child_grid_second-firstchild{
+      background-image: url('3203defter.png');
+      /* background-color: yellow; */
+     
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 50px;
+    position: relative;
+    top: 5px;
+  } 
+  
+  .child_grid_second-secondfchild{
+      background-image: url('320randevu.png');
+      /* background-color: yellow; */
+     
+    grid-column-start: 1;
+    grid-column-end: 1;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    
+  }
+      /* //////////////// */
+
+              }
+
+
+              @media screen and (max-width: 420px) and (min-width: 300px) {
+          
+.afterthree{
+    position: relative;
+    top: -20%;
+    font-size: 10px;
+}
+          }
+          .child_grid_first-firstchild{
+            background-image: url('phoneComputer.png');
+            /* background-color: yellow; */
+           
+          grid-column-start: 1;
+          grid-column-end: 1;
+          height: 50px;
+          position: relative;
+          width: 30px;
+          top: 10px;
+        }
+        .child_grid_first-secondchild{
+    
+   
+            text-align: left;
+            font-size: 5px;
+            display: flex;
+            align-items: center;
+            position: relative;
+            left: 2px;
+          }
+
+
+
+        
+
+
+          @media screen and (max-width: 290px) and (min-width: 200px) {
+        
+            .child_grid_second-firstchild{
+                background-image: url('phonedefter.png');
+                /* background-color: yellow; */
+               
+              grid-column-start: 1;
+              grid-column-end: 1;
+              height: 50px;
+              position: relative;
+              top: 10px;
+            } 
+            
+            .afterthree{
+                position: relative;
+                top: -35%;
+                font-size: 5px;
+                
+            }
+            .bar{
+                height: 250px;
+            }
+
+            .child_grid_first-secondfchild{
+                background-image: url('320defter.png');
+                /* background-color: yellow; */
+               
+              grid-column-start: 1;
+              grid-column-end: 1;
+              height: 50px;
+              position: relative;
+              top: 12px;
+              
+            }
+            .child_grid_first-secondschild{
+  
+ 
+              
+                position: relative;
+                left: 2px;
+              }
+              .child_grid_second-secondfchild{
+                background-image: url('320randevu.png');
+                /* background-color: yellow; */
+               
+              grid-column-start: 1;
+              grid-column-end: 1;
+              height: 50px;
+              position: relative;
+              
+            }
+            
+                      }
+
+
+          @media screen and (max-width: 450px) and (min-width: 411px) {
+
+            .afterthree{
+                position: relative;
+                top: -30%;
+                font-size: 10px;
+            }
+            .child_grid_first-firstchild{
+                position: relative;
+                left: 15px;
+                background-image: url('midcomputer.png');
+               width: 100%;
+
+            }
+            .child_grid_first-secondchild{
+                font-size: 10px;
+                position: relative;
+                left: 5px;
+            }
+
+          }
+
+          
+          @media screen and (max-width: 375px) and (min-width: 320px) {
+
+            .afterthree{
+                position: relative;
+                top: -0%;
+                font-size: 10px;
+            }
+
+          }
+
+
+
+          @media screen and (max-width: 200px) and (min-width: 355px) {
+
+            .afterthree{
+                position: relative;
+                top: -0%;
+                font-size: 7px;
+            }
+
+          }
+
+          @media screen and (max-width: 390px) and (min-width: 360px) {
+          
+            .afterthree{
+                position: relative;
+                top: -25%;
+                font-size: 8px;
+                
+            }
+
+
+
+
+            .after-title-settings{
+                height: 20px;
+              }
+              .parent-grid{
+               
+                  display: grid;
+                  grid-template-columns: 150px 2px 150px;
+                  grid-template-rows: 400px;
+                  justify-content: center;
+                 
+              }
+              
+              .grid-item {
+              height: 70%;
+                  background-color: rgba(255, 255, 255, 0.8);
+                  
+                  
+                  /* font-size: 10px; */
+                  text-align: center;
+                  margin-left: 10px;
+                  /* height: 50px; */
+                }
+                .bar{
+                  height: 70%;
+                  
+                    border: 1px solid rgba(0, 0, 0, 0.8);
+                }
+              
+                .child_grid_first{
+                    display: grid;
+                    grid-template-columns: 20% 70%;
+                    height: 50%;
+                    width: 100%;
+                    align-content: center;
+                }
+                .child_grid_first-firstchild{
+                    background-image: url('phoneComputer.png');
+                    /* background-color: yellow; */
+                 
+                  grid-column-start: 1;
+                  grid-column-end: 1;
+                  height: 50px;
+                }
+                .child_grid_first-secondchild{
+    
+   
+                    text-align: left;
+                    font-size: 8px;
+                    display: flex;
+                    align-items: center;
+                  }
+                
+               
+              
+                .child_grid_first-secondfchild{
+                    background-image: url('320defter.png');
+                    /* background-color: yellow; */
+                   
+                  grid-column-start: 1;
+                  grid-column-end: 1;
+                  height: 50px;
+                  position: relative;
+                  top: 10px;
+                }
+
+                .child_grid_second-firstchild{
+                    background-image: url('phonedefter.png');
+                    /* background-color: yellow; */
+                   
+                  grid-column-start: 1;
+                  grid-column-end: 1;
+                  height: 50px;
+                  position: relative;
+                  top: 10px;
+                } 
+
+                .child_grid_first-secondschild{
+                    font-size: 8px;
+                }
+                .child_grid_second-secondfchild{
+                    background-image: url('320randevu.png');
+                    /* background-color: yellow; */
+                   
+                  grid-column-start: 1;
+                  grid-column-end: 1;
+                  height: 50px;
+                  position: relative;
+                  
+                }
+         
+                
+            }
+
+
+            @media screen and (max-width: 2000px) and (min-width: 900px) {
+            
+
+.child_grid_first-firstchild{
+    background-image: url('computer.png');
+    width: 100%;
+}
+
+
+                .child_grid_first-secondchild{
+font-size: 15px;
+            }
+
+
+            }
+
+
+
+
+
+            /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    .item222{
+        /* background-image: url('fourth.png');
+       background-size: cover;
+       
+        width: 400px;
+    height: 300px; */
+    
+      }
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    /* .item222{
+        background-image: url('fourth.png');
+        background-size: cover;
+       
+        width: 400px;
+    height: 300px; */
+    
+      }
+    /* CSS */
+    
+  
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .item222{
+        /* background-image: url('fourth.png');
+        background-size: cover;
+       
+        width: 400px;
+    height: 300px; */
+    
+      }
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+   
+  
+    /* CSS */
+    .item222{
+        /* background-image: url('fourth.png');
+        background-size: cover;
+       
+        width: 400px;
+    height: 300px; */
+    
+      }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .P1{
+        position: absolute;
+        top: 60px;
+        left: 82%;
+    }
+    .P2{
+        position: absolute;
+        top: 95px;
+        left: 82%;
+    }
+    .P3{
+        position: absolute;
+        top: 450px;
+        left: 82%;
+    }
+    .P4{
+        position: absolute;
+        top: 500px;
+        left: 82%;
+    }
+    .P5{
+        position: absolute;
+        top: 850px;
+        left: 82%;
+    }
+    .P6{
+        position: absolute;
+        top: 900px;
+        left: 82%;
+    }
+
+
+    .P7{
+        position: absolute;
+        top: 1250px;
+        left: 82%;
+    }
+    .P8{
+        position: absolute;
+        top: 1300px;
+        left: 82%;
+    }
+    .P9{
+        position: absolute;
+        top: 1650px;
+        left: 82%;
+    }
+    .P10{
+        position: absolute;
+        top: 1700px;
+        left: 82%;
+    }
+
+   .checks{
+       position: relative;
+       left: 40px;
+   }
+    .form div{
+height: 200px;
+    }
+    .child_grid_first-firstchild{
+        background-image: url('computer.png');
+        width: 70%;
+    }
+    .child_grid_first-secondchild{
+        font-size: 10px;
+        /* position: relative;
+        top: 10px; */
+    }
+    .item222{
+        /* background-image: url('midfourth.png');
+        background-size: cover;
+       
+        width: 370px;
+    height: 300px; */
+    
+      }
+
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .inp{
+        height: 50px;
+    }
+    /* CSS */
+.imgA{
+    background-size: cover;
+}
+.P1{
+    position: absolute;
+    top: 60px;
+    left: 82%;
+}
+.P2{
+    position: absolute;
+    top: 95px;
+    left: 82%;
+}
+.P3{
+    position: absolute;
+    top: 450px;
+    left: 82%;
+}
+.P4{
+    position: absolute;
+    top: 500px;
+    left: 82%;
+}
+.P5{
+    position: absolute;
+    top: 850px;
+    left: 82%;
+}
+.P6{
+    position: absolute;
+    top: 900px;
+    left: 82%;
+}
+
+
+.P7{
+    position: absolute;
+    top: 1250px;
+    left: 82%;
+}
+.P8{
+    position: absolute;
+    top: 1300px;
+    left: 82%;
+}
+.P9{
+    position: absolute;
+    top: 1650px;
+    left: 82%;
+}
+.P10{
+    position: absolute;
+    top: 1700px;
+    left: 82%;
+}
+
+.checks{
+   position: relative;
+   left: 40px;
+}
+
+    .child_grid_first-firstchild{
+      
+        background-image: url('320computer.png');
+        width: 100px;
+    }
+    .child_grid_first-secondchild{
+        left: 10px;
+        font-size: 10px;
+        left:  7px;
+    }
+    .child_grid_second-firstchild{
+        left: 0;
+        width: 100px;
+    }
+   
+    .item222{
+        /* background-image: url('midfourth.png');
+        background-size: cover;
+       
+        width:200px;
+    height: 100%;
+    position: relative;
+    left:45px; */
+
+    
+      }
+    
+  }
+
+ 
+/* .child_grid_first-firstchild{
+    width: 400px;
+    height: 50px;
+    background-size: cover;
+} */
